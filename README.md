@@ -7,6 +7,6 @@ Organized into readable chapters, this online book aims to get you up to speed w
 | Chapter | Description |
 |-|-|
 | **Chapter 1: Why is Cryptography Necessary?** | Explains the *why* behind centuries-old ciphers and modern-day encryption |
-| **Chapter 2: Simple Ciphers (Caesar's, Vigenere's, Playfair, Hill)** | abc |
-| **Chapter 3: Public Key Cryptography** | abc |
-| **Chapter 4: Modular Arithmetic, Prime Numbers, and RSA** | abc |
+| **Chapter 2: Simple Ciphers (Caesar's, Vigenere's, Playfair, Hill)** | Explores a variety of simple ciphers, as well as their implementations, limitations, and weaknesses |
+| **Chapter 3: Public Key Cryptography** | Describes a system in which anybody can encrypt, but only one party can decrypt |
+| **Chapter 4: Modular Arithmetic, Prime Numbers, and RSA** | Reveals the mathematics that holds up one of modern cryptography's strongest systems: RSA  |
