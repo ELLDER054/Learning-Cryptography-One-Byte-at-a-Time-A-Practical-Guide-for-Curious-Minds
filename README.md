@@ -1,6 +1,7 @@
+## My code playground for cryptography
 # Learning Cryptography: One Byte at a Time
 ## — A Practical Guide for Curious Minds —
-* Note this is for beginners, not for professional use. My journey may be beneficial for others making the same trek, but it does not **at all** contain the best, fastest, most efficient programs in the world. The code is heavily-commented and all of my own confusions are honestly revealed as I made this journey myself.
+* Note this is for education, not for professional use. My journey may be beneficial for others making the same trek, but it does not **at all** contain the best, fastest, most efficient programs in the world. The code is heavily-commented and all of my own confusions are honestly revealed as I made this journey myself.
 
 Organized into readable chapters, this online book aims to get you up to speed with the current state of cryptography. Each chapter has several examples with images and well-documented Python code.
 ## Overview / Table of Contents
