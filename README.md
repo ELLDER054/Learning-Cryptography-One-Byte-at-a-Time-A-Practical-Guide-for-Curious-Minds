@@ -1,4 +1,4 @@
-## My code playground for cryptography
+## My code playground for cryptographic programs
 # Learning Cryptography: One Byte at a Time
 ## — A Practical Guide for Curious Minds —
 * Note this is for education, not for professional use. My journey may be beneficial for others making the same trek, but it does not **at all** contain the best, fastest, most efficient programs in the world. The code is heavily-commented and all of my own confusions are honestly revealed as I made this journey myself.
