@@ -12,6 +12,7 @@ fn sieve(n: usize) -> Vec<usize> {
     is_prime[0] = false;
     is_prime[1] = false;
 
+    // The while loop only has to go until the square root of 'n' because every composite number after that point will already have been killed by a previous step
     let mut i = 2;
     while (i * i) < n {
         if is_prime[i] {
