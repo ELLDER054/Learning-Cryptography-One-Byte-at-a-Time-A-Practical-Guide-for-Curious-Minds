@@ -1,6 +1,6 @@
 // Shifts each character in the string by the 'shift' variable
-fn caesar_shift(s: &str, shift: i8) -> String {
-    let result: String = s.chars().map(|c| match c {
+fn caesar_shift(plaintext: &str, shift: i8) -> String {
+    let ciphertext: String = plaintext.chars().map(|c| match c {
         'a'..='z' => {
             let base = b'a' as i8;
 
@@ -18,7 +18,7 @@ fn caesar_shift(s: &str, shift: i8) -> String {
         }
         _ => c // Any other character just becomes itself - this is generally a bad idea because spaces are retained, making it easier to attack
     }).collect();
-    result
+    ciphertext
 }
 
 fn main() {
