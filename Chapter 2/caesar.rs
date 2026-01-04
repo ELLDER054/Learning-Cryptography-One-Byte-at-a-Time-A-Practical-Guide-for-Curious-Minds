@@ -50,7 +50,7 @@ fn caesar_shift(plaintext: &str, shift: i8) -> String {
 
 fn main() {
     // Example plaintext
-    let plaintext = "hello world";
+    let plaintext = "helloworld";
     println!("{}", plaintext);
 
     // Shifts the letters right by 3
