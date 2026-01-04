@@ -1,3 +1,30 @@
+/*
+A Caesar's Cipher shifts each numerical value of the plaintext by a key number
+Example:
+
+key = 3
+h  e  l  l  o  w  o  r  l  d
+7  4  11 11 14 22 14 17 11 3
++3 ...
+10 7  14 14 17 25 17 20 14 6
+k  h  o  o  r  z  r  u  o  g
+
+so
+
+"helloworld" -> "khoorzruog"
+with a key of 3
+
+In order to decrypt the ciphertext, you repeat the above operation, but subtracting 3 instead of adding
+
+k  h  o  o  r  z  r  u  o  g
+10 7  14 14 17 25 17 20 14 6
+-3 ...
+7  4  11 11 14 22 14 17 11 3
+h  e  l  l  o  w  o  r  l  d
+
+to get "helloworld" again
+*/
+
 // Shifts each character in the string by the 'shift' variable
 fn caesar_shift(plaintext: &str, shift: i8) -> String {
     let ciphertext: String = plaintext.chars().map(|c| match c {
@@ -23,14 +50,14 @@ fn caesar_shift(plaintext: &str, shift: i8) -> String {
 
 fn main() {
     // Example plaintext
-    let plaintext = "The lazy dog jumped over the river";
+    let plaintext = "hello world";
     println!("{}", plaintext);
 
-    // Shifts the letters right by 2
-    let ciphertext = caesar_shift(&plaintext, 2);
+    // Shifts the letters right by 3
+    let ciphertext = caesar_shift(&plaintext, 3);
     println!("{}", ciphertext);
 
-    // Shifts the letter LEFT by 2 (which is why the 2 is negative)
-    let decryption = caesar_shift(&ciphertext, -2);
+    // Shifts the letter LEFT by 3 (which is why the 3 is negative)
+    let decryption = caesar_shift(&ciphertext, -3);
     println!("{}", decryption);
 }
