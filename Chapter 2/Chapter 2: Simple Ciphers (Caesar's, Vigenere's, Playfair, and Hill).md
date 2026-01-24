@@ -21,5 +21,3 @@ The Caesar's Cipher is a simple `substition cipher` that was reportedly used by 
 
 Substitution Cipher
 : a method of encryption where each character of the plaintext is replaced by another unique character
-
-<img width="200" height="210" alt="Screenshot 2026-01-03 142047" src="https://github.com/user-attachments/assets/11979fa9-108e-4ae5-96b8-a18beadb17d3" />
