@@ -21,3 +21,7 @@ The Caesar's Cipher is a simple `substition cipher` that was reportedly used by 
 
 Substitution Cipher
 : a method of encryption where each character of the plaintext is replaced by another unique character
+
+So the way a Caesar's Cipher works is that every letter is shifted by a certain amount of letters to a new letter. Those new letters then make up the ciphertext of the message. It relies on the false assumption that attackers can't tell what shift was used. There are really only 25 possible shifts that a Caesar's Cipher can make use of, making it so that if it is *verified* that a Caesar's Cipher is being used, it is extremely trivial to break.
+
+To understand better what a shift really means, it can be helpful to look at a few examples.
